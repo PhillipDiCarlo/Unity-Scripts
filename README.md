@@ -1,4 +1,4 @@
-# Unity Scripts by Italiandogs
+# Unity Scripts
 
 This repository contains a collection of custom Unity scripts aimed at optimizing assets and managing shaders within a Unity project. These scripts add new tools to the Unity Editor to streamline common tasks. Below is a description of each script included in this repository.
 

@@ -34,6 +34,13 @@ This script adds a menu item under **Tools > Italiandogs > Apply Mesh Compressio
 - **Usage:** Go to **Tools > Italiandogs > Apply Mesh Compression** to compress meshes in the scene.
 - **Logs:** Outputs the name of each mesh that had compression applied.
 
+### 5. TextureCompressionTool.cs
+This script introduces a tool under **Tools > Italiandogs > Texture Compression Tool** that scans all textures in the scene and identifies those that lack compression or do not use Crunch Compression. The user can then process these textures to apply normal-quality compression and enable Crunch Compression, improving memory usage and load times.
+
+- **Functionality:** Scans textures in the scene, identifies uncompressed textures, and applies normal-quality compression and Crunch Compression.
+- **Usage:** Go to **Tools > Italiandogs > Texture Compression Tool**. The tool displays a list of textures to process. Click **Process Textures** to apply the changes. A summary window will display the number of textures processed and any failures.
+- **Logs:** Outputs the name of each texture processed and lists any textures that failed to update.
+
 ---
 
 ## Usage

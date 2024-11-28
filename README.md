@@ -41,6 +41,24 @@ This script introduces a tool under **Tools > Italiandogs > Texture Compression 
 - **Usage:** Go to **Tools > Italiandogs > Texture Compression Tool**. The tool displays a list of textures to process. Click **Process Textures** to apply the changes. A summary window will display the number of textures processed and any failures.
 - **Logs:** Outputs the name of each texture processed and lists any textures that failed to update.
 
+### 6. LightmapScaleEditor.cs
+This script adds a menu item under **Tools > Italiandogs > Lightmap Scale Editor**. It allows users to bulk adjust the "Scale In Lightmap" property for all objects in the scene that have a `Renderer` component. This property determines the amount of lightmap space allocated to an object, affecting lighting detail and texture memory usage.
+
+- **Functionality:** Adjusts the "Scale In Lightmap" property for all game objects with renderers in the scene.
+- **Usage:** Go to **Tools > Italiandogs > Lightmap Scale Editor**, input the desired scale value, and click "Apply to All Objects" to update the property for all eligible objects.
+- **Logs:** Outputs a message in the Unity Console for each object updated.
+
+### 7. ExportTerrain.cs
+This script introduces a menu item under **Tools > Italiandogs > Terrain > Export To Obj...**. It allows users to export Unity terrain data into a .OBJ file, which is a standard format for 3D models. The script supports different resolutions and formats (triangles or quads) for the exported terrain.
+
+- **Functionality:** Exports Unity terrain to a .OBJ file with customizable resolution and format.
+- **Usage:**
+  1. Select a terrain object in the Unity Editor.
+  2. Navigate to **Terrain > Export To Obj...** in the menu bar.
+  3. Adjust export settings in the pop-up window (format and resolution).
+  4. Click **Export** and choose the destination file.
+- **Logs:** Displays progress during export and logs any errors to the Unity Console.
+
 ---
 
 ## Usage

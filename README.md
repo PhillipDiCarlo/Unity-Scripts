@@ -66,9 +66,6 @@ This script introduces a menu item under **Tools > Italiandogs > Terrain > Expor
 2. Open Unity, and the new tools will be available under **Tools > Italiandogs** in the menu bar.
 3. Select the appropriate tool for your needs, follow the UI prompts, and check the Unity Console for any log messages regarding changes made.
 
-## License
-This project is licensed under the MIT License. Feel free to modify and use these scripts as needed.
-
 ---
 
 Happy optimizing!
